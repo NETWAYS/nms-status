@@ -1,0 +1,30 @@
+# Dokumentation
+
+# Diese Webseite ist mit Github Pages und Jekyll gebaut.
+# Formatierung in HTML, CSS und Markdown.
+
+# Format für die Post-Einträge:
+# Der Dateiname MUSS das Format JJJJ-MM-TT-Name.md tragen und im /_post Directory liegen, um automatisch veröffentlicht zu werden!
+# Die ersten 5 Zeilen MÜSSEN im hier dargestellten Format bleiben: 
+
+    ---
+    layout: post
+    title: "Betreff"
+    date: JJJJ-MM-TT
+    time: "HH:MM"
+    ---
+    * Layout Post muss vorhanden sein
+    * genau so der Titel (z. B. Wartungsbeginn server1, server2, etc...) und das Datum (Format beachten!). 
+    * Auch die Bindestriche MÜSSEN so bleiben, damit der Eintrag richtig eingelesen werden kann.
+
+# Die Tabellen müssen immer folgendes Format haben (Anzahl Leerzeichen bzw. Bindestriche ist egal):
+
+    |         |   |              |
+    |---------|---|--------------|
+    |         |   |              |
+    |         |   |              |
+    |         |   |              |
+
+# Alles Weitere z. B. Formatierung und Veröffentlichung werden von github und Jekyll übernommen.
+
+# Bei Fragen bitte wenden an Nicole Lang oder Netways Infrastruktur.
