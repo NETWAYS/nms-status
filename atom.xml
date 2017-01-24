@@ -4,9 +4,9 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Storagegirl's Blog</title>
-	<link href="http://storagegirl.github.io/atom.xml" rel="self"/>
-	<link href="http://storagegirl.github.io/blog"/>
+	<title>NMS RSS</title>
+	<link href="http://status.netways.de/atom.xml" rel="self"/>
+	<link href="http://status.netways.de/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://storagegirl.github.io/blog</id>
 	<author>
@@ -17,9 +17,9 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://storagegirl.github.io{{ post.url }}"/>
+			<link href="http://status.netways.de{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://storagegirl.github.io{{ post.id }}</id>
+			<id>http://status.netways.de{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
