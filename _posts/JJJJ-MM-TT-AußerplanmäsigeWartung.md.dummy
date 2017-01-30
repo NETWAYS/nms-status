@@ -2,7 +2,7 @@
 layout: post
 title: "Unscheduled Maintenance on [INFO]"
 date: JJJJ-MM-TT
-time: "HH:MM am|pm Europe/Berlin"
+time: "[HH:MM am|pm] Europe/Berlin"
 fa: "exclamation-triangle"
 ---
 
