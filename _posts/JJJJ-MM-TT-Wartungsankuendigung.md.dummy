@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Maintenance announcement [INFO]"
+date: JJJJ-MM-TT
+time: "HH:MM am|pm Europe/Berlin"
+fa: "exclamation-triangle"
+---
+
+|                   |   |                                                                      |
+|-------------------|---|----------------------------------------------------------------------|
+| Systems:          |   | [NAME]                                                               |
+| Start:            |   | Planned for [JJJJ-MM-TT] at [HH:MM am/pm ]                           |
+| End:              |   | Planned for [JJJJ-MM-TT] at [HH:MM am/                               |    
+| Description:      |   | Due to maintenance work the above mentioned services will not be available. |
+| Affected: | | Customers of [NAME] |
