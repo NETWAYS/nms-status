@@ -9,6 +9,6 @@ fa: "check-square"
 |                   |   |                                                                      |
 |-------------------|---|----------------------------------------------------------------------|
 | Systems:          |   | [NAME]                                                               |
-| End:              |   | [JJJJ-MM-TT] at [HH:MM]                                              |    
-| Description:      |   | All maintenance work has been terminated successfully.               |
+| End:              |   | [JJJJ-MM-TT] at [HH:MM]                                              |
+| Description:      |   | All maintenance work has been completed successfully.                |
 | Affected:         |   | Customers of [NAME]                                                  |

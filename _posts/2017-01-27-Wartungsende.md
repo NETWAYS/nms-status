@@ -10,5 +10,5 @@ fa: "check-square"
 |-------------------|---|----------------------------------------------------------------------|
 | Systems:          |   | Ceph                                                               |
 | End:              |   | 2017-01-27 at 05:00                                              |    
-| Description:      |   | All maintenance work has been terminated successfully.               |
+| Description:      |   | All maintenance work has been completed successfully.               |
 | Affected:         |   | All Customers                                                  |
