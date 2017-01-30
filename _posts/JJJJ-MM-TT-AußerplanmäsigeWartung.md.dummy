@@ -2,14 +2,14 @@
 layout: post
 title: "Unscheduled Maintenance on [INFO]"
 date: JJJJ-MM-TT
-time: "HH:MM"
-fa: "medkit"
+time: "HH:MM  am|pm Europe/Berlin"
+fa: "exclamation-triangle"
 ---
 
 |                    |   |                                                                      |
 |--------------------|---|----------------------------------------------------------------------|
 | Systems:           |   | [NAME]                                                               |
 | Start:             |   | [JJJJ-MM-TT] at [HH:MM]                                              | 
-| End:               |   | Expected on [JJJJ-MM-TT] at [HH:MM]                                  |    
+| End:               |   | Planned for [JJJJ-MM-TT] at [HH:MM]                                  |    
 | Description:       |   | Due to system failure the above mentioned services are currently not available. |
 | Affected:          |   | Customers of [NAME]                                                  |
