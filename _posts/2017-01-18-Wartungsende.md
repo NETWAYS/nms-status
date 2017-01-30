@@ -2,13 +2,13 @@
 layout: post
 title: "Maintenance end Firewall / Loadbalancer / Ceph"
 date: 2017-01-18
-time: "06:00"
+time: "06:00 am Europe/Berlin"
 fa: "check"
 ---
 
 |                   |   |                                                                      |
 |-------------------|---|----------------------------------------------------------------------|
 | Systems:          |   | Firewall / Loadbalancer / Ceph                                                               |
-| End:              |   | 2017-01-18 at 06:00                                              |
+| End:              |   | 2017-01-18 at 06:00 am Europe/Berlin                                             |
 | Description:      |   | All maintenance work has been completed successfully.               |
 | Affected:         |   | All Customers                                                  |
