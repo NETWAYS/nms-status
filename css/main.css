@@ -1,98 +1,190 @@
-body {
-    background-color: white;
-    margin-bottom: 50px;
-    margin-left: 0;
-    margin-right: 0;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
+html, body {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
+
+html {
+  min-height: 100%;
+}
+
+
+html * {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: #1b1b1b;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: #fd5c26;
+  font: inherit;
+  text-decoration: none;
+  -webkit-transition: opacity .3s ease;
+     -moz-transition: opacity .3s ease;
+      -ms-transition: opacity .3s ease;
+          transition: opacity .3s ease;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+i {
+  color: inherit;
+}
+
+.state > i {
+  border-radius: 12px;
+  height: 24px;
+  width: 24px;
+  color: white;
+}
+
+.fa-clock-o {
+  background: #9B9B9B
+}
+
+.fa-check {
+  background: #7ED321;
+}
+
+.fa-exclamation-triangle {
+  background: #F6A623;
+}
+
+#page {
+  min-width: 320px;
+  height: 100%;
+  width: 100%;
+}
+
+header, main, footer {
+  width: 100%;
+}
+
+/* Header styles */
+
+header .content > div {
+  padding-bottom: 1em;
+}
+
+/* END Header styles */
+
+/* Main Styles */
+
+main .content {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/* END Main Styles */
+
+/* Post Styles */
+
+.post {
+  border-bottom: 1px solid #ddd;
+  padding: .5em 0;
+  padding-left: 36px;
+  position: relative;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.post > .state {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 1.75em; left: .25em;
+}
+
+.post > .state > i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* END Post Styles */
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+/* Footer styles */
 
 footer {
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    font-size: 12px;
-    color: #aaa;
-    background-color: #444;
-    bottom: 0;
-    left: 0;
-    font-weight: bold;
+  background: #444;
 }
 
-footer a {
-    color: #aaa;
-    text-decoration: none;
+footer * {
+  color: #aaa;
 }
+
+footer > .content {
+  padding: 1em 0;
+}
+
+footer > .content > p {
+  font-size: .857em;
+}
+
+/* END Footer styles */
+
+/* -- */
+
 
 table {
-    font-weight: normal;
-    text-align: left;
-    vertical-align: top;
-}    
-
-th {
-    display: none;
-    font-weight: normal;
-    text-align: left;
-    vertical-align: top;
-}    
-
-td {
-    vertical-align: top;
-} 
-
-p {
-    font-size: 18px;
-    text-align: left;
+  font: inherit;
+  color: inherit;
+  vertical-align: top;
 }
 
-#containerline {
-    width: 100%;
-    border-bottom: 1px solid #ddd;
+th {
+  display: none;
+  font: inherit;
+  color: inherit;
+  vertical-align: top;
+}
+
+td {
+  font-size: .857em;
+  vertical-align: top;
+}
+
+p {
+  text-align: left;
 }
 
 #containerheader {
-    margin:auto; 
-    width:1000px;
+    margin:auto;
 }
 
 #containerbody {
-    margin:auto; 
-    width:1000px;
+    margin:auto;
 }
-
-#containerinfo {
-    padding-top: 15px; 
-    padding-bottom: 15px; 
-    font-size: 18px;
-}
- 
 
 .boxlogo {
-    float: left;
     width: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .boxsocial {
-    float: left;
     text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 700px;    
 }
 
 .boxsocial a {
-    display: inline-block;
-    margin-left: 10px;
-    font-weight: bold;
-    color: #FD5B25;
-    font-size: 12px;
-    text-align: right;
-    text-decoration: none;
+  display: inline-block;
+  margin-right: 1em;
+  font-size: .857em;
 }
 
 .boxheader {
@@ -102,47 +194,84 @@ p {
     width: 100%;
 }
 
-.boxdate {
-    padding-top: 10px;
-    text-align: left;
-    font-weight: bold;
-    float: left;
-    width: 220px;
-    color: black;
-    font-size: 22px;
-    border-top: 3px solid #FD5B25;
-    border-color: #FD5B25;    
+.boxdatetime {
+  font-size: .857em;
+  color: #9B9B9B;
 }
 
-.boxtime {
-    text-align: left;
-    font-weight: bold;
-    float: left;
-    width: 220px;
-    color: gray;
-    font-size: 18px;
-    padding-bottom: 25px;
+.boxdatetime span {
+  font: inherit;
+  font-size: 1em;
+  color: inherit;
+  display: inline-block;
+  margin-right: 1em;
 }
 
-.boxtitle {
-    padding-top: 10px;
-    text-align: left;
-    font-weight: bold;
-    float: left;
-    width: 780px;
-    color: black;
-    font-size: 22px;
-    padding-bottom: 10px;
-    border-top: 3px solid #FD5B25;
-    border-color: #FD5B25;
+.boxdatetime span:last-child {
+  margin-right: 0;
+}
+
+h3.boxtitle {
+  font-weight: bold;
+  padding: .25em 0;
+  max-width: 100%;
 }
 
 .boxcontent {
-    text-align: left;
-    float: left;
-    width: 780px;
-    color: gray;
-    font-size: 18px;
-    padding-bottom: 10px;
+    color: #9B9B9B;
+}
+
+/* Utils */
+
+.post:after,
+.content:after,
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rfloat {
+  display: block;
+  float: right;
+}
+
+.lfloat {
+  display: block;
+  float: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-small {
+  font-size: .857em;
+}
+
+/* END Utils */
+
+.well {
+  display: table;
+  width: 75%;
+  background: #ddd;
+  position: relative;
+  padding: .5em;
+  padding-left: 3.5em;
+  border-radius: .25em;
+  margin: 1.5em auto;
+}
+
+#section-info .well > i.fa,
+.well > i.fa {
+  display: block;
+  position: absolute;
+  left: .5em;
+  top: .5em;
+  color: gray;
 }
 

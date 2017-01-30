@@ -1,55 +1,64 @@
 ---
 layout: default
-title: NMS Status Page 
+title: NMS Status Page
 ---
 
-<div id="containerline">
-	<div id="containerheader">
-		<div class="boxlogo">
-		<img src="NETWAYS_Logo_RGB_transparent_schwarz_72dpi.png" style="width: 200px; height: 30px">
+<header role="banner">
+	<div class="content">
+    	<div class="boxsocial">
+			<a href="https://www.netways.de/home/" target="_blank">Website</a>
+			<a href="http://blog.netways.de/" target="_blank">Blog</a>
+			<a href="https://shop.netways.de" target="_blank">Shop</a>
+			<a href="https://git.netways.org/explore/projects" target="_blank">Git</a>
+			<a href="https://www.netways.de/ueber_netways/veranstaltungskalender/" target="_blank">Events</a>
+			<a href="https://www.facebook.com/netways" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+			<a href="https://twitter.com/netways" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+			<a href="https://plus.google.com/+netways" target="_blank"><i class="fa fa-fw fa-google-plus"></i></a>
+			<a href="http://status.netways.de/atom.xml" target="_blank"><i class="fa fa-fw fa-rss"></i></a>
 		</div>
-		<div class="boxsocial">
-		<a href="https://www.netways.de/home/" target="_blank">Website</a>
-		<a href="http://blog.netways.de/" target="_blank">Blog</a>
-		<a href="https://shop.netways.de" target="_blank">Shop</a>
-		<a href="https://git.netways.org/explore/projects" target="_blank">Git</a>
-		<a href="https://www.netways.de/ueber_netways/veranstaltungskalender/" target="_blank">Events</a>
-		<a href="https://www.facebook.com/netways" target="_blank"> <img src="facebook-logo_FD5B25.png" title="Facebook" style="width:15px; height:15px"/> </a>			
-		<a href="https://twitter.com/netways" target="_blank"> <img src="twitter-logo_FD5B25.png" title="Twitter" style="width:15px; height:12px"/> </a>
-		<a href="https://plus.google.com/+netways" target="_blank"> <img src="google-plus-logo_FD5B25.png" title="Google Plus" style="width:15px; height:13px"/> </a>
-		<a href="http://status.netways.de/atom.xml" target="_blank"> <img src="rss-logo_FD5B25.png" title="RSS" style="width:15px; height:15px"/> </a>
-		</div>
-		<div class="boxheader">	
-		<h1>NMS Status Page</h1>
+		<div class="boxlogo lfloat">
+			<img src="netways-logo.svg" alt="NETWAYS">
 		</div>
 	</div>
-</div>	
+</header>
+<main>
+    <section id="section-info">
+        <div class="content">
+            <div class="well">
+                <i class="fa fa-info-circle fa-2x"></i>
+                <h1>NMS Status Page</h1>
+                <p class="text-small">This is the status page of NETWAYS Managed Services. In case of service interruptions we will keep you informed here.</p>
+            </div>
+        </div>
+    </section>
+	<section>
+    	<div class="content">
+            <div class="posts">
+        		{% for post in site.posts %}
+        		<div class="post">
+            		<div class="state">
+                		<i class="fa fa-{{ post.fa }}" aria-hidden="true"></i>
+            		</div>
+        			<div class="boxdatetime">
+        				<span class="date">{{ post.date | date_to_long_string }}</span>
+        				<span class="time">{{ post.time }}</span>
+        			</div>
+                    <h3 class="boxtitle" title="{{ post.title }}">
+        			    {{ post.title }}
+        			</h3>
+        			<div class="boxcontent">
+        			    {{ post.content }}
+        			</div>
+        		</div>
+        	  	{% endfor %}
+        	</div>
+    	</div>
+	</section>
+</main>
+<footer>
+	<div class="content">
+    	<p class="text-center">© 1995—2017 NETWAYS GmbH ❘ Phone: +49 911 92885-0 ❘ Fax: +49 911 92885-77 ❘ Email: info(at)netways.de | <a href="https://www.netways.de/kontakt/impressum/" target="_blank">Impressum</a></p>
+    </div>
+</footer>
 
-<div id="containerbody">
-	<div id="containerinfo">
-<h3>About</h3>
-          This is the status page of NETWAYS Managed Services. In case of service interruptions we will keep you informed here.
-<p></p>
-	</div>
-	<div class="posts">
-		{% for post in site.posts %}
-		<div class="boxdate"> 
-	      	{{ post.date | date_to_long_string }}
-	    	</div>
-	    	<div class="boxtitle">
-		{{ post.title }}
-		</div>
-		<div class="boxtime">
-		{{ post.time }}<br><br>
-                <i class="fa fa-{{ post.fa }} fa-2x" aria-hidden="true"></i>
-		</div>
-		<div class="boxcontent">
-		{{ post.content }} 	
-		</div>
-		<div style="clear:left">
-		</div>
-	  	{% endfor %}
-	</div>
-</div>
-		
 

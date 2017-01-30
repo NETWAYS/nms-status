@@ -3,10 +3,10 @@ layout: post
 title: "Update: Maintenance on [INFO]"
 date: JJJJ-MM-TT
 time: "HH:MM"
-fa: "pencil-square"
+fa: "clock-o"
 ---
 
 |                   |   |                                                                      |
 |-------------------|---|----------------------------------------------------------------------|
 | Systems:          |   | [NAME]                                                               |
-| Update:           |   | [INFO]                                                               | 
+| Update:           |   | [INFO]                                                               |
