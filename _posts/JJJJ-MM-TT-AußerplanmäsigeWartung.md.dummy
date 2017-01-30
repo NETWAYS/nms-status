@@ -9,7 +9,7 @@ fa: "exclamation-triangle"
 |                    |   |                                                                      |
 |--------------------|---|----------------------------------------------------------------------|
 | Systems:           |   | [NAME]                                                               |
-| Start:             |   | [JJJJ-MM-TT] at [HH:MM]                                              | 
-| End:               |   | Planned for [JJJJ-MM-TT] at [HH:MM]                                  |    
+| Start:             |   | [JJJJ-MM-TT] at [HH:MM am|pm] Europe/Berlin                          | 
+| End:               |   | Planned for [JJJJ-MM-TT] at [HH:MM am|pm] Europe/Berlin              |    
 | Description:       |   | Due to system failure the above mentioned services are currently not available. |
 | Affected:          |   | Customers of [NAME]                                                  |
