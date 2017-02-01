@@ -70,6 +70,11 @@ header, main, footer {
 
 /* Header styles */
 
+header {
+  height: 140px;
+  border-bottom: 1px solid #ddd;
+}
+
 header .content > div {
   padding-bottom: 1em;
 }
@@ -174,7 +179,7 @@ p {
 }
 
 .boxlogo {
-    width: 300px;
+    width: 250px;
 }
 
 .boxsocial {
