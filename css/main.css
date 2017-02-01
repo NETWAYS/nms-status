@@ -129,6 +129,7 @@ main .content {
 
 footer {
   background: #444;
+  padding: 2em;
 }
 
 footer * {
