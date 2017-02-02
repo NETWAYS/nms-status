@@ -2,24 +2,10 @@
 layout: default
 ---
 
-<section>
-    	<div class="content">
-            <div class="posts">
-        		<div class="post">
-            		<div class="state">
-                		<i class="fa fa-{{ post.fa }}" aria-hidden="true"></i>
-            		</div>
-        			<div class="boxdatetime">
-        				<span class="date">{{ post.date | date_to_long_string }}</span>
-        				<span class="time">{{ post.time }}</span>
-        			</div>
-                    <h3 class="boxtitle" title="{{ post.title }}">
-        			    {{ post.title }}
-        			</h3>
-        			<div class="boxcontent">
-        			    {{ post.content }}
-        			</div>
-        		</div>
-        	</div>
-    	</div>
-</section>
+<h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date_to_string }}</p>
+
+        <div class="post">
+        {{ content }}   
+        </div>
+
