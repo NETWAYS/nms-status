@@ -5,7 +5,6 @@ layout: default
 <section>
     	<div class="content">
             <div class="posts">
-        		{% for post in site.posts %}
         		<div class="post">
             		<div class="state">
                 		<i class="fa fa-{{ post.fa }}" aria-hidden="true"></i>
@@ -21,7 +20,6 @@ layout: default
         			    {{ post.content }}
         			</div>
         		</div>
-        	  	{% endfor %}
         	</div>
     	</div>
 </section>
