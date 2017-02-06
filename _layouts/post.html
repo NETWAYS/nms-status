@@ -1,19 +1,58 @@
 ---
 layout: default
 ---
-<h1>Test</h1>
-<div class="post">
-    <div class="state">
-        <i class="fa fa-{{ post.fa }}" aria-hidden="true"></i>
+<header role="banner">
+	<div class="content">
+    	<div class="boxsocial">
+			<a href="https://www.netways.de/home/" target="_blank">Website</a>
+			<a href="http://blog.netways.de/" target="_blank">Blog</a>
+			<a href="https://shop.netways.de" target="_blank">Shop</a>
+			<a href="https://git.netways.org/explore/projects" target="_blank">Git</a>
+			<a href="https://www.netways.de/ueber_netways/veranstaltungskalender/" target="_blank">Events</a>
+			<a href="https://www.facebook.com/netways" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+			<a href="https://twitter.com/netways" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+			<a href="https://plus.google.com/+netways" target="_blank"><i class="fa fa-fw fa-google-plus"></i></a>
+			<a href="http://status.netways.de/atom.xml" target="_blank"><i class="fa fa-fw fa-rss"></i></a>
+		</div>
+		<div class="boxlogo lfloat">
+			<img src="netways-logo.svg" alt="NETWAYS">
+		</div>
+	</div>
+</header>
+<main>
+    <section id="section-info">
+        <div class="content">
+            <div class="well">
+                <i class="fa fa-info-circle fa-2x"></i>
+                <h1>NMS Status Page</h1>
+                <p class="text-small">This is the status page of NETWAYS Managed Services. In case of service interruptions we will keep you informed here.</p>
+            </div>
+        </div>
+    </section>
+	<section>
+    	<div class="content">
+            <div class="posts">
+        		<div class="post">
+            		<div class="state">
+                		<i class="fa fa-{{ post.fa }}" aria-hidden="true"></i>
+            		</div>
+        			<div class="boxdatetime">
+        				<span class="date">{{ post.date | date_to_long_string }}</span>
+        				<span class="time">{{ post.time }}</span>
+        			</div>
+                    <h3 class="boxtitle" title="{{ post.title }}">
+        			    {{ post.title }}
+        			</h3>
+        			<div class="boxcontent">
+        			    {{ post.content }}
+        			</div>
+        		</div>
+        	</div>
+    	</div>
+	</section>
+</main>
+<footer>
+	<div class="content">
+    	<p class="text-center">© 1995—2017 NETWAYS GmbH ❘ Phone: +49 911 92885-0 ❘ Fax: +49 911 92885-77 ❘ Email: info(at)netways.de | <a href="https://www.netways.de/kontakt/impressum/" target="_blank">Impressum</a></p>
     </div>
-    <div class="boxdatetime">
-        <span class="date">{{ page.date | date_to_long_string }}</span>
-        <span class="time">{{ date_to_string }}</span>
-    </div>
-    <h3 class="boxtitle" title="{{ page.title }}">
-        {{ page.title }}
-    </h3>
-    <div class="boxcontent">
-        {{ content }}
-    </div>
-</div>
+</footer>
