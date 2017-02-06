@@ -37,14 +37,14 @@ layout: default
                 		<i class="fa fa-{{ post.fa }}" aria-hidden="true"></i>
             		</div>
         			<div class="boxdatetime">
-        				<span class="date">{{ post.date | date_to_long_string }}</span>
-        				<span class="time">{{ post.time }}</span>
+        				<span class="date">{{ page.date | date_to_long_string }}</span>
+        				<span class="time">{{ page.time }}</span>
         			</div>
-                    <h3 class="boxtitle" title="{{ post.title }}">
-        			    {{ post.title }}
+                                    <h3 class="boxtitle" title="{{ page.title }}">
+        			    {{ page.title }}
         			</h3>
         			<div class="boxcontent">
-        			    {{ post.content }}
+        			    {{ content }}
         			</div>
         		</div>
         	</div>
