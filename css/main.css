@@ -92,6 +92,12 @@ main .content {
 
 /* Post Styles */
 
+.posts {
+  display: table;
+  max-width: 40em;
+  margin: 0 auto;
+}
+
 .post {
   border-bottom: 1px solid #ddd;
   padding: .5em 0;
