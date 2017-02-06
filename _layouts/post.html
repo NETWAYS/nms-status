@@ -4,7 +4,7 @@ layout: default
 <h1>Test</h1>
 <div class="post">
     <div class="state">
-        <i class="fa fa-" aria-hidden="true"></i>
+        <i class="fa fa-{{ post.fa }}" aria-hidden="true"></i>
     </div>
     <div class="boxdatetime">
         <span class="date">{{ page.date | date_to_long_string }}</span>
@@ -17,11 +17,3 @@ layout: default
         {{ content }}
     </div>
 </div>
-
-<h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date_to_string }}</p>
-
-        <div class="post">
-        {{ content }}   
-        </div>
-
