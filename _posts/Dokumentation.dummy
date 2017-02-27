@@ -12,7 +12,7 @@
     title: "Betreff"
     date: JJJJ-MM-TT
     time: "HH:MM am/pm Europe/Berlin"
-    fa: "exclamation-triangle" (gibt das Symbol an, also Ausrufezeihen, Haken etc.)
+    fa: "exclamation-triangle" (gibt das Symbol an, also Ausrufezeichen, Haken etc.)
     ---
     
     * Layout Post muss vorhanden sein
