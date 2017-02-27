@@ -11,10 +11,13 @@
     layout: post
     title: "Betreff"
     date: JJJJ-MM-TT
-    time: "HH:MM"
+    time: "HH:MM am/pm Europe/Berlin"
+    fa: "exclamation-triangle" (gibt das Symbol an, also Ausrufezeihen, Haken etc.)
     ---
+    
     * Layout Post muss vorhanden sein
     * genau so der Titel (z. B. Wartungsbeginn server1, server2, etc...) und das Datum (Format beachten!). 
+    * Bitte auch auf am/pm bei der Zeitangabe achten. Bitte nicht 23:15 pm!!!
     * Auch die Bindestriche MÜSSEN so bleiben, damit der Eintrag richtig eingelesen werden kann.
 
 # Die Tabellen müssen immer folgendes Format haben (Anzahl Leerzeichen bzw. Bindestriche ist egal):
