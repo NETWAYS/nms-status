@@ -10,8 +10,8 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://storagegirl.github.io/blog</id>
 	<author>
-		<name>Nicole Lang</name>
-		<email>nicole.langb@storagegirl.de</email>
+		<name>Netways GmbH</name>
+		<email>info@netways.de</email>
 	</author>
 
 	{% for post in site.posts %}
