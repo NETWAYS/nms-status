@@ -58,6 +58,10 @@ i {
   background: #F6A623;
 }
 
+.fa-info-circle {
+  background: #ff6600
+}
+
 #page {
   min-width: 320px;
   height: 100%;
