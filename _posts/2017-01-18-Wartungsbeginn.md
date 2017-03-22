@@ -3,7 +3,7 @@ layout: post
 title: "Maintenance start Firewall / Loadbalancer / Ceph "
 date: 2017-01-18
 time: "01:00 am Europe/Berlin"
-fa: "exclamation-triangle"
+fa: "info"
 ---
 
 |                   |   |                                                                      |
