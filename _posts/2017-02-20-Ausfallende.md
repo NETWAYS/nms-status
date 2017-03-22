@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Outage end"
+title: "Outage Firewal solved"
 date: 2017-02-20
 time: "04:40 pm Europe/Berlin"
 fa: "check"
