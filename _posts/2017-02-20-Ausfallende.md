@@ -9,6 +9,7 @@ fa: "check"
 |                   |   |                                                                      |
 |-------------------|---|----------------------------------------------------------------------|
 | Systems:          |   | Webservices                                                              |
+| Start:            |   | 2017-02-20 at 04:25 pm Europe/Berlin                                 |
 | End:              |   | 2017-02-20 at 04:40 pm Europe/Berlin                                              |
 | Description:      |   | The firewall is working fine again. The problems have been resolved                |
 | Affected:         |   | All hosting customers                                                  |
