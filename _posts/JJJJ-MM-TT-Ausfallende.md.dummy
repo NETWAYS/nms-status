@@ -9,7 +9,6 @@ fa: "check"
 |                    |   |                                                                      |
 |--------------------|---|----------------------------------------------------------------------|
 | Systems:           |   | [NAME]                                                               |
-| Start:             |   | [JJJJ-MM-TT] at [HH:MM am|pm] Europe/Berlin                          | 
 | End:               |   | [JJJJ-MM-TT] at [HH:MM am|pm] Europe/Berlin                          |
 | Description:       |   | Due to system failure the above mentioned services are currently not available. |
 | Affected:          |   | Customers of [NAME]                                                  |
