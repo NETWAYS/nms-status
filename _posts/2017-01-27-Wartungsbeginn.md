@@ -3,7 +3,7 @@ layout: post
 title: "Maintenance start Ceph "
 date: 2017-01-27
 time: "01:00 am Europe/Berlin"
-fa: "exclamation-triangle"
+fa: "info"
 ---
 
 |                   |   |                                                                      |
