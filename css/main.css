@@ -47,7 +47,7 @@ i {
 }
 
 .fa-clock-o {
-  background: #9B9B9B
+  background: #444
 }
 
 .fa-check {
@@ -60,7 +60,11 @@ i {
 
 .fa-info-circle,
 .fa-info {
-  background: #F6A623;
+  background: #444;
+}
+
+.fa-calendar {
+  background: #444;
 }
 
 .well > i {
