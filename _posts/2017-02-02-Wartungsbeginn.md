@@ -3,7 +3,7 @@ layout: post
 title: "Maintenance start Network"
 date: 2017-02-02
 time: "01:00 am Europe/Berlin"
-fa: "exclamation-triangle"
+fa: "info"
 ---
 
 |                    |   |                                                                      |
