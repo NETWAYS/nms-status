@@ -3,7 +3,7 @@ layout: post
 title: "Maintenance announcement Ceph "
 date: 2017-01-23
 time: "03:38 pm Europe/Berlin"
-fa: "info"
+fa: "calendar"
 ---
 
 |                   |   |                                                                      |
