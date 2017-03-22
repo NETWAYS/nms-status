@@ -62,6 +62,11 @@ i {
   background: #F6A623;
 }
 
+.well > i {
+  background: none;
+  color: gray;
+}
+
 #page {
   min-width: 320px;
   height: 100%;
