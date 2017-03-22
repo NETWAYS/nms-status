@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scheduled Maintenance"
+title: "Start Scheduled Maintenance"
 date: 2017-03-04
 time: "01:00 am Europe/Berlin"
 fa: "exclamation-triangle"
