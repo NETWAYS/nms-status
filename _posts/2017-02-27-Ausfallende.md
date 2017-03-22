@@ -9,7 +9,6 @@ fa: "check"
 |                   |   |                                                                      |
 |-------------------|---|----------------------------------------------------------------------|
 | Systems:          |   | External monitoring satellite |
-| Start:            |   | 2017-02-27 at 02:50 pm Europe/Berlin | 
 | End:              |   | 2017-02-27 at 04:05 pm Europe/Berlin |    
 | Description:      |   | The error has been fixed and the monitoring works again in full extent.  |
 | Affected:         |   | Customers with additional external services monitoring.                                           |
