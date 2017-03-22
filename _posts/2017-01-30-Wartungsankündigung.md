@@ -3,7 +3,7 @@ layout: post
 title: "Maintenance announcement Network"
 date: 2017-01-30
 time: "02:45 pm Europe/Berlin"
-fa: "info"
+fa: "calendar"
 ---
 
 |                    |   |                                                                      |
