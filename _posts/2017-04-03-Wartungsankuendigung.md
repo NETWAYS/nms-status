@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Maintenance announcement Loadbalancer Software Update"
-date: 2017-04-12
-time: "01:00 am Europe/Berlin"
+date: 2017-04-03
+time: "17:40 am Europe/Berlin"
 fa: "calendar"
 ---
 
