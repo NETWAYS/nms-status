@@ -2,7 +2,7 @@
 layout: post
 title: "CANCELLED - Maintenance announcement Loadbalancer Software Update"
 date: 2017-04-10
-time: "14:20 pm Europe/Berlin"
+time: "02:20 pm Europe/Berlin"
 fa: "calendar"
 ---
 
