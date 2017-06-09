@@ -11,5 +11,5 @@ fa: "calendar"
 | Systems:          |   | Firewall / Loadbalancer / Ceph				       |
 | Start:            |   | 2017-01-18 at 01:00 am Europe/Berlin                                                  | 
 | End:              |   | Planned for 2017-01-18 at 05:00 am Europe/Berlin                                  |    
-| Description:      |   | In the above period will be held upgrade work on main network components. We are expecting short outages during maintenance.|
+| Description:      |   | In the above period will be held upgrade work on main network components.|
 | Affected:         |   | All Customers                                                  |
