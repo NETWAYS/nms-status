@@ -11,6 +11,5 @@ fa: "calendar"
 | Systems:          |   | Ceph                                                               |
 | Start:            |   | Planned for 2017-06-10 at 01:00 am Europe/Berlin              |
 | End:              |   | Planned for 2017-06-10 at 05:00 am Europe/Berlin              |    
-| Description:      |   | In the above period will be held an maintenance work and optimizations on ceph.
-We are not expecting interruptions during maintenance-work. |
+| Description:      |   | In the above period will be held an maintenance work and optimizations on ceph. |
 | Affected:         |   | All customers with ceph-storage (nfs) or virtual servers.                                                  |
