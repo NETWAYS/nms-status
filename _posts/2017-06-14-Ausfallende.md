@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Outage/Interruption [INFO] solved"
