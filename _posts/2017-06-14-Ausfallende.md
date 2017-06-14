@@ -12,4 +12,4 @@ fa: "check"
 | Systems:           |   | CEPH                                                               |
 | End:               |   | 2017-06-14 at 09:48 am Europe/Berlin                          |
 | Description:       |   | The problem has beedn solved |
-| Affected:          |   | All customers with shared storage and virtual machines.                                                  |
+| Affected:          |   | All customers with shared storage and virtual machines.                  |
