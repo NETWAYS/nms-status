@@ -2,7 +2,7 @@
 layout: post
 title: "Maintenance announcement Firewall / Loadbalancer / Ceph "
 date: 2017-07-20
-time: "05:30 pm Europe/Berlin"
+time: "10:15 am Europe/Berlin"
 fa: "calendar"
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Company Event"
-date: 2017-07-21
-time: "09:30 am Europe/Berlin"
-fa: "info"
+date: 2017-07-18
+time: "01:00 am Europe/Berlin"
+fa: "calendar"
 ---
 
 |                   |   |                                                                      |
