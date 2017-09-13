@@ -3,7 +3,7 @@ layout: post
 title: "Configuration change on Layer2 connections on backbone"
 date: 2017-09-13
 time: "11:40 am Europe/Berlin"
-fa: "calendar"
+fa: "exclamation-triangle"
 ---
 
 |                   |   |                                                                      |
