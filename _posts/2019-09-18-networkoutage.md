@@ -4,7 +4,7 @@ title: "Issues with Network"
 date: 2019-09-18
 date: 2019-09-18
 time: "11:45 Europe/Berlin"
-fa: "calendar"
+fa: "exclamation-triangle"
 ---
 
 |                   |   |                                                                      |
